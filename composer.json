@@ -1,0 +1,17 @@
+{
+    "name": "oyta/pospay",
+	"description": "Oyta PHP支付插件",
+    "autoload": {
+        "psr-4": {
+            "Oyta\\Pospay\\": "src/"
+        }
+    },
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "Oyta",
+            "email": "ynga7718@qq.com"
+        }
+    ],
+    "require": {}
+}
