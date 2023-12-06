@@ -22,7 +22,7 @@ class Oytapay
             'notify_url'=>  $data['notify_url'] //异步通知地址
         ];
         $process = Httprequest::process($pays);
-        $url = 'https://card.daucn.com/api/pay/charge';
+        $url = 'https://pospay.daucn.com/api/pay/charge';
         $posts = Httprequest::uripost($url,$process,null);
         $res = Httprequest::verify($posts);
         return $res;
